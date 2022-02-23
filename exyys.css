@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255,228,228,1);
+}
+
+.TikTok {
+    width: 230px;
+    height: 60px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    top: 150px; bottom: 450px; right: 0px; left: 0px;
+    display: block;
+    background-color: rgba(0,131,255,1);
+    border: 3px solid ivory;
+    border-radius: 40px;
+    cursor: pointer;
+    color: black;
+
+    transition: background-color 1000ms; color 1000ms;
+} 
+
+.TikTok:hover{
+    background-color: rgba(255, 63, 63, 0.8);
+    color: #222222;
+
+    transition: background-color 1000ms; color 1000ms;
+    cursor: pointer;
+}
+.Discord {
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    top: 320px; bottom: 450px; right: 0px; left: 0px;
+    display: block;
+    background-color: rgba(0,131,255,1);
+    border: 3px solid ivory;
+    border-radius: 40px;
+    cursor: pointer;
+    color: black;
+
+    transition: background-color 1000ms; color 1000ms;
+} 
+
+.Discord:hover{
+    background-color: rgba(255, 63, 63, 0.8);
+    color: #222222;
+
+    transition: background-color 1000ms; color 1000ms;
+    cursor: pointer;
+}
+.index {
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    top: -250px; bottom: 450px; right: 0px; left: 1350px;
+    display: block;
+    background-color: rgba(255, 63, 63, 0.8);
+    border: 3px solid ivory;
+    border-radius: 40px;
+    cursor: pointer;
+    color: black;
+
+    transition: background-color 500ms; color 500ms;
+} 
+
+.index:hover {
+    background-color: rgba(242, 255, 0, 0.8);
+
+    transition: background-color 500ms; color 500ms;
+    cursor: pointer;
+}
+.tiktoker {
+    width: 100px;
+    height: 50px;
+    font-size: 75px;
+    top: 0px; bottom: 0px; right: 0px; left: 625px;
+    position: absolute;
+    text-align: center;
+    color: orange;
+}
+.bypineczek {
+    width: 400px;
+    height: 50px;
+    font-size: 45px;
+    top: 650px; bottom: 50px; right: 0px; left: 1125px;
+    position: absolute;
+    text-align: center;
+    color: black;
+}
